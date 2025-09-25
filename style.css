@@ -388,8 +388,23 @@ section {
 .project-title {
     margin: 0 0 0.5rem 0;
     color: black;
-    ≈
+}
 
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tag {
+    background-color: #535050;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
 }
 
 .project-description {

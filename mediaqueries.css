@@ -112,3 +112,14 @@
     .project-btn {
         margin-top: 1rem;
     }
+    
+    /* Responsive tag styles */
+    .project-tags {
+        justify-content: center;
+        gap: 0.4rem;
+    }
+    
+    .tag {
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+    }
